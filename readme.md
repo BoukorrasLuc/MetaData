@@ -27,6 +27,7 @@
 ## Future Script Improvement: 
 
 Sorts images by date of creation.
+This script only accepts jpg pictures, soon other formats will be possible.
 
 
 
