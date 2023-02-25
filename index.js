@@ -12,7 +12,7 @@ async function getImageMetadata(filePath) {
 async function getImagesWithMetadata(folderPath) {
   try {
     const files = await fs.readdir(folderPath);
-    const imageExtensions = ['jpg', 'jpeg', 'png','HEIC', "PNG"];
+    const imageExtensions = ['jpg', 'jpeg', 'png','HEIC', "PNG","NEF"];
     const imageFiles = files.filter(file => {
       const extension = file.split('.').pop().toLowerCase();
       return imageExtensions.includes(extension);
